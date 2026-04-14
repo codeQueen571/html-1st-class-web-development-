@@ -1,1 +1,121 @@
 # html-1st-class-web-development-
+
+<html>
+    <head>
+    <!-- FOR TITLE-->
+        <title>My First Website</title>
+
+
+    <!--  FOR UNDERLINE WE USE =>  INS( INSERT) -->
+      <h2><ins>Mishal Jahan </ins></h2>
+
+
+    <!--  (i) => italic (em) => emphasize BOTH ARE USED FOR SAME PURPOSES -->
+      <!--  (p) tag is used for paragraph -->
+        <h><b>FOR ITALIC</b> <ins>(I)&(em)</ins> <b>AND FOR BOLD</b> <ins>(b)&(strong)</ins></b></h>
+        <P><i> i am trying to expert in MS OFFICE ,WEB DEVELOPMENT etc </i></P>
+
+
+    <!-- (B) is used for bold and (em) is used for italic but{ ye SEO kliye use hota ha} -->
+       
+     <p><b><em> Hy i am a WEB DEVELOPER ,FULL STACK DEVELOPER also</em></b></p>
+
+     <!--  (strong) => is also used for bold but in {SEO} -->
+
+       <p><strong> web developmepnt is used in making websites of different sites, products</strong></p>
+   
+
+       <!--(<br>) => FOR BREAK  (<br />)=> SELF CLOSING TAG-->
+       <h><b><ins>USE OF (br)</ins></b></h>
+       <P>Web development is the comprehensive process of creating, 
+        building, and maintaining websites and web applications for the internet or intranets.<br>
+         It involves a mix of front-end development (user interface/client-side) and back-end development
+          (server-side logic, databases) to ensure functional,<br>responsive, and secure digital experiences.
+           Ranging from simple static pages to complex applications,<br> it utilizes technologies like HTML,
+            CSS, JavaScript, and various frameworks. 
+</P>
+    
+    </head>
+    <body>
+        <!-- FOR ORDERD LIST ITEMS-->
+         <h><b>ORDERD LIST</b></h>
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+            <li>Pineapple</li>
+        </ol>
+
+
+        <!-- FOR UNORDERE LIST ITEMS-->
+         <h><b>UN-ORDERD LIST</b></h>
+        <ul>
+        <li>Laptop</li>
+        <li>Keybord</li>
+        <li>Mouse</li>
+        <li>Printer</li>
+        </ul>
+
+          <!-- (SUP)=> for SUPER-SCRIPT -->
+           <h><b>SUPER-SCRIPT</b></h>
+           <ol>
+         <li>456<SUP>89</SUP></li>
+          <li>995<sup>12</sup></li>
+         <li>554<sup>04</sup></li>
+          <br>
+          <br>
+          </ol>
+
+          <!--  (SUB) =>  for SUB-SCRIPT -->
+            <h><b>SUB-SCRIPT</b></h>
+         <ul>
+          <li>H<sub>2</sub>SO<sub>4</sub></li>
+          <li>CaCO<sub>4</sub></li>
+          </ul>
+
+
+        <!-- FOR DEFINITION LIST-->
+        <dl>
+            <!-- FOR DEFINITIO TERMINOLOGY -->
+            <dt><b>Laptop</b></dt>
+            <!-- FOR DEFINITION DATA-->
+            <dd>Laptop is a hardware flexible device used anywhere at any place</dd>
+        </dl>
+
+
+       <!--  (a)tag anchor tag whic is used for links -->
+       <!-- (href => hyper reference) is the place where we put or give any things link-->
+       <!-- target="_blank is used for opening link to a new page without missing our website page.--><br>
+        <h><b>LINK FOR NEW TAB OPINING</b></h><br />
+     <a href="https://www.youtube.com/" target="_blank">Go to Youtube</a>
+    <br />
+    <br />
+        
+     <!-- TYPES OF LINKS-->
+      <!-- ABSOLUTE LINK => "kisi bhi website ka URL"-->
+     <!-- RELATIVE LINKS => apki website k andar jitny 
+      bhi links hn (e.g  home page,about page links etc) inko
+       bnany kliye alg alg html files bnani prti hn-->
+       <h><b> RELATIVE LINKS</b></h><br>
+       <a href="about.html">About</a> <br />
+       <br />
+
+
+       <!-- TYPES OF IMAGES -->
+        <!--ON-LINE IMAGES => kisi bhi website ya
+     goole pics ko search krk uska link copy krna -->
+     <!-- src => means source     and   alt => means alternative-->
+      <h><b>ONLINE IMAGE</b></h><br>
+      <img src="https://img.freepik.com/premium-photo/anime-girl-with-pink-lips-black-
+      hat-posing-picture-generative-ai_1034045-67343.jpg" 
+      alt=" korean beauty" width="535"><br />
+      <br />
+      
+
+
+        <!-- OFF-LINE IMAGES  => pictures ko save krk lgana -->
+         <h><b>OFF-LINE IMAGES</b></h><br />
+         
+        <img src="laptop.jpg" alt="laptop" width="400">
+    </body>
+</html>
